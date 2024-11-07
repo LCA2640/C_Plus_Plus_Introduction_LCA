@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int map[7][7] = {
+        {0, 0, 1, 1, 0, 1, 0},
+        {1, 0, 0, 1, 1, 0, 1},
+        {0, 1, 0, 1, 0, 0, 0},
+        {0, 0, 0, 0, 0, 1, 0},
+        {0, 1, 1, 0, 0, 1, 0},
+        {0, 0, 1, 0, 0, 0, 1},
+        {0, 1, 0, 0, 0, 0, 1}
+    };
+
+    int dim_y;
+    int dim_x;
+
+    cin >> dim_y;
+    cin >> dim_x;
+
+    cout << map[dim_y][dim_x];    
+
+}
