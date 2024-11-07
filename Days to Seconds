@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+//define the toSeconds() function here
+
+int toSeconds(int d){
+
+    return (d * 24 * 60 * 60);
+    //         hour* min* sec
+}
+
+
+int main() {
+    int days;
+    cin >> days;
+
+    int seconds = toSeconds(days);
+    cout << seconds;
+}
